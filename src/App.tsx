@@ -5,6 +5,8 @@ import { TableData } from "./components/component-page/table-data";
 import { Customer } from "./types";
 import { Download } from "lucide-react";
 import { headers } from "./data/headers";
+import { ThemeProvider } from "./providers/theme";
+import { ModeToggle } from "./components/ui/mode-toggle";
 
 function App() {
   const [customersData, setCustomersData] = React.useState<Customer[]>([]);
@@ -40,25 +42,31 @@ function App() {
   }
 
   return (
-    <div className="px-5">
-      <ServiceInputId updateCustomerData={updateCustomerData} />
-      {hasCustomerData && (
-        <div className="mt-10">
-          <TableData customers={customersData} />
-        </div>
-      )}
-      {hasCustomerData && (
-        <div className="flex justify-end">
-          <button
-            className="flex items-center gap-2 mt-6 text-teal-950"
-            onClick={downloadCSV}
-          >
-            <span className="text-sm">Fazer download</span>
-            <Download size={16} />
-          </button>
-        </div>
-      )}
-    </div>
+    <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
+      <div className="flex items-center justify-end px-5 mt-10">
+        <ModeToggle />
+      </div>
+
+      <div className="px-5">
+        <ServiceInputId updateCustomerData={updateCustomerData} />
+        {hasCustomerData && (
+          <div className="mt-10">
+            <TableData customers={customersData} />
+          </div>
+        )}
+        {hasCustomerData && (
+          <div className="flex justify-end">
+            <button
+              className="flex items-center gap-2 mt-6"
+              onClick={downloadCSV}
+            >
+              <span className="text-sm">Fazer download</span>
+              <Download size={16} />
+            </button>
+          </div>
+        )}
+      </div>
+    </ThemeProvider>
   );
 }
 
