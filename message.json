@@ -1,0 +1,1250 @@
+{
+  "type": "application/vnd.lime.collection+json",
+  "resource": {
+    "total": 38,
+    "itemType": "application/vnd.iris.thread-message+json",
+    "items": [
+      {
+        "id": "ecb97746-d48d-4f09-9113-68d2d7e4a5e7",
+        "direction": "sent",
+        "type": "text/plain",
+        "content": "Por falta de resposta, estou encerrando a conversa, mas saiba que estarei aqui sempre que precisar! É só enviar um <b>Oi</b> para falarmos novamente. Até logo!",
+        "date": "2024-09-05T21:48:07.428Z",
+        "status": "consumed",
+        "metadata": {
+          "$elapsedTimeToStorage": "00:00:00.0099798",
+          "#stateName": "[E.3.2.0][MSG] Encerramento por Inatividade",
+          "#stateId": "3a1de4bf-1534-411e-8d20-8a4f0b7d6245",
+          "#messageId": "1d459494-0800-4f2f-b759-3485d9d434b1@tunnel.msging.net-inputexpirationtime",
+          "#previousStateId": "6eb75667-325a-40e7-8531-2c8abf6bacb6",
+          "#previousStateName": "[E.3.0.1][INPUT] Menu Inatividade",
+          "traceparent": "00-eb79e542274398830a49c42dceb37cb4-e356c01c6405fb84-01",
+          "#uniqueId": "7ac7ee44-86c3-4943-ac4c-1921a8320a62",
+          "#date_processed": "1725572887423",
+          "date_created": "1725572887414",
+          "#tunnel.owner": "medprevvendasrouter1@msging.net",
+          "#tunnel.originator": "5541995818053@wa.gw.msging.net",
+          "#tunnel.originalFrom": "excecoesvendas@msging.net/msging-application-builder-hosting-enterprise-cd6zp",
+          "#tunnel.originalTo": "1d459494-0800-4f2f-b759-3485d9d434b1@tunnel.msging.net",
+          "$originator": "medprevvendasrouter1@msging.net",
+          "$claims": "Node=medprevvendasrouter1@msging.net/msging-application-router-hosting-enterprise-27279;Identity=medprevvendasrouter1@msging.net;DomainRole=Member;AuthenticationScheme=Transport",
+          "$internalId": "7ac7ee44-86c3-4943-ac4c-1921a8320a62",
+          "$originatorSessionRemoteNode": "enterprise.master.hosting@msging.net/!msging-server-qj5wm-qs86dnqy",
+          "#messageKind": "Response"
+        }
+      },
+      {
+        "id": "c44e94ba-a8cf-4580-bb59-e223c269b7e9",
+        "direction": "sent",
+        "type": "application/vnd.lime.select+json",
+        "content": {
+          "text": "Notei que você está ausente há algum tempo. O que deseja fazer?",
+          "options": [
+            {
+              "text": "Continuar a conversa"
+            },
+            {
+              "text": "Encerrar conversa"
+            }
+          ]
+        },
+        "date": "2024-09-05T21:43:05.902Z",
+        "status": "consumed",
+        "metadata": {
+          "$elapsedTimeToStorage": "00:00:00.0095533",
+          "#stateName": "[E3.0.0][MSG] Inatividade 1",
+          "#stateId": "0f21de09-265c-4405-a882-0919a2075063",
+          "#messageId": "context:d11da380-3223-4bba-8b2f-c547610b7fc7",
+          "#previousStateId": "4e6f1ebe-f95b-456f-9885-25f6739ee9a2",
+          "#previousStateName": "[GO TO] Destino Dinâmico",
+          "traceparent": "00-eb79e542274398830a49c42dceb37cb4-c22d8a3ae79dd0c2-01",
+          "#uniqueId": "beeadca5-9624-44d0-bec3-48d811d359c5",
+          "#date_processed": "1725572585897",
+          "date_created": "1725572585887",
+          "#tunnel.owner": "medprevvendasrouter1@msging.net",
+          "#tunnel.originator": "5541995818053@wa.gw.msging.net",
+          "#tunnel.originalFrom": "excecoesvendas@msging.net/msging-application-builder-hosting-enterprise-6r5pb",
+          "#tunnel.originalTo": "1d459494-0800-4f2f-b759-3485d9d434b1@tunnel.msging.net",
+          "$originator": "medprevvendasrouter1@msging.net",
+          "$claims": "Node=medprevvendasrouter1@msging.net/msging-application-router-hosting-enterprise-bvrxj;Identity=medprevvendasrouter1@msging.net;DomainRole=Member;AuthenticationScheme=Transport",
+          "$internalId": "beeadca5-9624-44d0-bec3-48d811d359c5",
+          "$originatorSessionRemoteNode": "enterprise.master.hosting@msging.net/!msging-server-phdwr-qs86dnqy",
+          "#messageKind": "Response"
+        }
+      },
+      {
+        "id": "f5fca2c5-f901-4f5f-a600-6630b3bd393f",
+        "direction": "sent",
+        "type": "application/vnd.lime.select+json",
+        "content": {
+          "scope": "immediate",
+          "text": "Gostaria de nos dizer o motivo da sua nota e/ou deixar uma sugestão?",
+          "options": [
+            {
+              "text": "Sim "
+            },
+            {
+              "text": "Não"
+            }
+          ]
+        },
+        "date": "2024-09-05T21:28:04.440Z",
+        "status": "consumed",
+        "metadata": {
+          "$elapsedTimeToStorage": "00:00:00.0060272",
+          "#stateName": "[C.1.1][MSG] Menu Dinâmico Dizer motivo",
+          "#stateId": "de152ef7-ae32-4a0e-9fbf-1f807dc72ef9",
+          "#messageId": "wamid.HBgMNTU0MTk1ODE4MDUzFQIAEhggQzI3RkNDRjJFMjMwRkI5MzBDQTJFNzI5M0JGOTY5M0MA",
+          "#previousStateId": "22ebad65-cc34-49ea-85cf-11471b813b5a",
+          "#previousStateName": "[C.1.0.1][INPUT] Menu Dinâmico",
+          "traceparent": "00-eb79e542274398830a49c42dceb37cb4-bfe5fb50e4e2740c-01",
+          "#uniqueId": "82a03ace-e8bd-4e35-9a27-f2ede9aa66e0",
+          "#date_processed": "1725571684436",
+          "date_created": "1725571684418",
+          "#tunnel.owner": "medprevvendasrouter1@msging.net",
+          "#tunnel.originator": "5541995818053@wa.gw.msging.net",
+          "#tunnel.originalFrom": "satisfacaovendas@msging.net/msging-application-builder-hosting-enterprise-c9wl4",
+          "#tunnel.originalTo": "196c0865-4802-42a6-9ecf-6e02174800bc@tunnel.msging.net",
+          "$originator": "medprevvendasrouter1@msging.net",
+          "$claims": "Node=medprevvendasrouter1@msging.net/msging-application-router-hosting-enterprise-xp46n;Identity=medprevvendasrouter1@msging.net;DomainRole=Member;AuthenticationScheme=Transport",
+          "$internalId": "82a03ace-e8bd-4e35-9a27-f2ede9aa66e0",
+          "$originatorSessionRemoteNode": "enterprise.master.hosting@msging.net/!msging-server-g5bsn-qs86dnqy",
+          "#messageKind": "Response"
+        }
+      },
+      {
+        "id": "wamid.HBgMNTU0MTk1ODE4MDUzFQIAEhggQzI3RkNDRjJFMjMwRkI5MzBDQTJFNzI5M0JGOTY5M0MA",
+        "direction": "received",
+        "type": "application/vnd.lime.reply+json",
+        "content": {
+          "replied": {
+            "type": "text/plain",
+            "value": "Ruim 😐 "
+          },
+          "inReplyTo": {
+            "id": "78841cb6-4708-4050-b6e7-c7fcec850bb6",
+            "type": "application/vnd.lime.select+json",
+            "value": {
+              "text": "Escolha uma avaliação para o meu atendimento, conforme sua satisfação:",
+              "options": [
+                {
+                  "text": "Excelente 🤩 "
+                },
+                {
+                  "text": "Bom 😊 "
+                },
+                {
+                  "text": "Regular 🙂"
+                },
+                {
+                  "text": "Ruim 😐 "
+                },
+                {
+                  "text": "Prefiro não avaliar"
+                }
+              ]
+            },
+            "direction": "sent"
+          }
+        },
+        "date": "2024-09-05T21:28:03.209Z",
+        "status": "dispatched",
+        "metadata": {
+          "$elapsedTimeToStorage": "00:00:00.0184517",
+          "#wa.timestamp": "1725571682",
+          "#wa.context.from": "554132336908",
+          "#wa.context.id": "wamid.HBgMNTU0MTk1ODE4MDUzFQIAERgSQTMwRDA4QjE1QkVDNTNBOTFBAA==",
+          "#wa.context.group_id": null,
+          "#wa.forwarded": null,
+          "#wa.frequently_forwarded": null,
+          "#wa.interactive.list.id": "Ruim",
+          "traceparent": "00-eb79e542274398830a49c42dceb37cb4-318c44f83aa44db9-01",
+          "#inReplyToId": "wamid.HBgMNTU0MTk1ODE4MDUzFQIAERgSQTMwRDA4QjE1QkVDNTNBOTFBAA==",
+          "#messageReferenceInternalID": "1023f052-6bdf-4f9c-a97d-6fc405910cc6",
+          "$internalId": "8c4e57f5-3ba6-4f98-8e7f-df2b6d09d4e9",
+          "$originatorSessionRemoteNode": "postmaster@wa.gw.msging.net/#msging-gateway-whatsapp-rjnnw",
+          "#uniqueId": "8c4e57f5-3ba6-4f98-8e7f-df2b6d09d4e9",
+          "#date_processed": "1725571683197",
+          "date_created": "1725571683192"
+        }
+      },
+      {
+        "id": "78841cb6-4708-4050-b6e7-c7fcec850bb6",
+        "direction": "sent",
+        "type": "application/vnd.lime.select+json",
+        "content": {
+          "text": "Escolha uma avaliação para o meu atendimento, conforme sua satisfação:",
+          "options": [
+            {
+              "text": "Excelente 🤩 "
+            },
+            {
+              "text": "Bom 😊 "
+            },
+            {
+              "text": "Regular 🙂"
+            },
+            {
+              "text": "Ruim 😐 "
+            },
+            {
+              "text": "Prefiro não avaliar"
+            }
+          ]
+        },
+        "date": "2024-09-05T21:27:31.969Z",
+        "status": "consumed",
+        "metadata": {
+          "$elapsedTimeToStorage": "00:00:00.0068276",
+          "#stateName": "[C.1.0][MSG] Menu Dinâmico Satisfação humano",
+          "#stateId": "906b2d49-90c2-4092-9a85-f0ab7d05cfa3",
+          "#messageId": "context:ee1c1eec-614d-434d-8509-2df49bbdf081",
+          "#previousStateId": "829283c6-6d06-45f7-9efc-3207acaa694a",
+          "#previousStateName": "[GO TO] Menu Satisfação humano",
+          "traceparent": "00-00ec1a10835738c16f0d88274437bea4-f472b1a90424f48c-01",
+          "#uniqueId": "1023f052-6bdf-4f9c-a97d-6fc405910cc6",
+          "#date_processed": "1725571651965",
+          "date_created": "1725571651952",
+          "#tunnel.owner": "medprevvendasrouter1@msging.net",
+          "#tunnel.originator": "5541995818053@wa.gw.msging.net",
+          "#tunnel.originalFrom": "satisfacaovendas@msging.net/msging-application-builder-hosting-enterprise-8scmk",
+          "#tunnel.originalTo": "196c0865-4802-42a6-9ecf-6e02174800bc@tunnel.msging.net",
+          "$originator": "medprevvendasrouter1@msging.net",
+          "$claims": "Node=medprevvendasrouter1@msging.net/msging-application-router-hosting-enterprise-27279;Identity=medprevvendasrouter1@msging.net;DomainRole=Member;AuthenticationScheme=Transport",
+          "$internalId": "1023f052-6bdf-4f9c-a97d-6fc405910cc6",
+          "$originatorSessionRemoteNode": "enterprise.master.hosting@msging.net/!msging-server-jd42c-qs86dnqy",
+          "#messageKind": "Response"
+        }
+      },
+      {
+        "id": "1a21e993-b332-4162-bbeb-98e1eeb12f43",
+        "direction": "sent",
+        "type": "text/plain",
+        "content": "Espero que eu tenha conseguido te ajudar. 🤗",
+        "date": "2024-09-05T21:27:30.960Z",
+        "status": "consumed",
+        "metadata": {
+          "$elapsedTimeToStorage": "00:00:00.0105679",
+          "#stateName": "[C.1.0][MSG] Menu Dinâmico Satisfação humano",
+          "#stateId": "906b2d49-90c2-4092-9a85-f0ab7d05cfa3",
+          "#messageId": "context:ee1c1eec-614d-434d-8509-2df49bbdf081",
+          "#previousStateId": "829283c6-6d06-45f7-9efc-3207acaa694a",
+          "#previousStateName": "[GO TO] Menu Satisfação humano",
+          "traceparent": "00-00ec1a10835738c16f0d88274437bea4-346263e2e067c91c-01",
+          "#uniqueId": "9eb14848-ed6d-481a-a8cb-39a3065847df",
+          "#date_processed": "1725571650956",
+          "date_created": "1725571650946",
+          "#tunnel.owner": "medprevvendasrouter1@msging.net",
+          "#tunnel.originator": "5541995818053@wa.gw.msging.net",
+          "#tunnel.originalFrom": "satisfacaovendas@msging.net/msging-application-builder-hosting-enterprise-8scmk",
+          "#tunnel.originalTo": "196c0865-4802-42a6-9ecf-6e02174800bc@tunnel.msging.net",
+          "$originator": "medprevvendasrouter1@msging.net",
+          "$claims": "Node=medprevvendasrouter1@msging.net/msging-application-router-hosting-enterprise-p78l4;Identity=medprevvendasrouter1@msging.net;DomainRole=Member;AuthenticationScheme=Transport",
+          "$internalId": "9eb14848-ed6d-481a-a8cb-39a3065847df",
+          "$originatorSessionRemoteNode": "enterprise.master.hosting@msging.net/!msging-server-qj5wm-qs86dnqy",
+          "#messageKind": "Response"
+        }
+      },
+      {
+        "id": "48b196bb-bd66-483f-934b-c081f69a777b",
+        "direction": "sent",
+        "type": "text/plain",
+        "content": "Foi uma satisfação atender você! 😄 Segue o número do seu protocolo de atendimento: 82324",
+        "date": "2024-09-05T21:27:29.639Z",
+        "status": "consumed",
+        "metadata": {
+          "$elapsedTimeToStorage": "00:00:00.0066575",
+          "#stateName": "[T.6.0][MSG] Atendimento Finalizado",
+          "#stateId": "23592445-3beb-4cd0-bb81-fe6032f98fb7",
+          "#messageId": "7eb90c02-1452-4021-8f23-7b3052b0b6cf",
+          "#previousStateId": "desk:0fec0ac4-33f6-4efc-8761-266fce2ae445",
+          "#previousStateName": "Atendimento humano",
+          "traceparent": "00-00ec1a10835738c16f0d88274437bea4-56f36d750cd13211-01",
+          "#uniqueId": "970ed2ea-4ab7-4821-9882-05f3d5e61284",
+          "#date_processed": "1725571649634",
+          "date_created": "1725571649620",
+          "#tunnel.owner": "medprevvendasrouter1@msging.net",
+          "#tunnel.originator": "5541995818053@wa.gw.msging.net",
+          "#tunnel.originalFrom": "transbordovendas2@msging.net/msging-application-builder-hosting-enterprise-ctn4r",
+          "#tunnel.originalTo": "4f950452-f449-4904-8e0f-3ca7d905ddf7@tunnel.msging.net",
+          "$originator": "medprevvendasrouter1@msging.net",
+          "$claims": "Node=medprevvendasrouter1@msging.net/msging-application-router-hosting-enterprise-8tmmp;Identity=medprevvendasrouter1@msging.net;DomainRole=Member;AuthenticationScheme=Transport",
+          "$internalId": "970ed2ea-4ab7-4821-9882-05f3d5e61284",
+          "$originatorSessionRemoteNode": "enterprise.master.hosting@msging.net/!msging-server-g5bsn-qs86dnqy",
+          "#messageKind": "Response"
+        }
+      },
+      {
+        "id": "wamid.HBgMNTU0MTk1ODE4MDUzFQIAEhggMTk3MTI3NzNBMDI1OTVFOTgzMkIzQzdDRUVBRDE0NTIA",
+        "direction": "received",
+        "type": "application/vnd.lime.media-link+json",
+        "content": {
+          "type": "image/jpeg",
+          "uri": "https://blipmediastore.blip.ai/secure-medias/Media_5ce353dd-9c08-400d-9f1a-32afc3ad4987535300819168428?sv=2024-05-04&st=2024-09-06T13%3A42%3A53Z&se=2024-09-06T14%3A12%3A53Z&sr=b&sp=r&sig=7criLYz8hv8m8loa5DnQTwslDRMSOv5Kx%2BF4AkWptJA%3D&secure=true"
+        },
+        "date": "2024-09-05T21:14:40.661Z",
+        "status": "dispatched",
+        "metadata": {
+          "$elapsedTimeToStorage": "00:00:00.0129563",
+          "#wa.timestamp": "1725570878",
+          "traceparent": "00-de491e41d3c748ed380e2667ee383d26-6db92ee68040a8f8-01",
+          "$internalId": "1b325ffe-517d-4afd-8f31-d8ec75d48e98",
+          "$originatorSessionRemoteNode": "postmaster@wa.gw.msging.net/#msging-gateway-whatsapp-fbg2n",
+          "#uniqueId": "1b325ffe-517d-4afd-8f31-d8ec75d48e98",
+          "#date_processed": "1725570880653",
+          "date_created": "1725570880649"
+        }
+      },
+      {
+        "id": "fwd:fwd:2925e7b5-b292-4ea8-9a8d-0f464714051b",
+        "direction": "sent",
+        "type": "text/plain",
+        "content": "Por favor enviar foto do pedido médico ",
+        "date": "2024-09-05T21:14:14.583Z",
+        "status": "consumed",
+        "metadata": {
+          "$elapsedTimeToStorage": "00:00:00.0085409",
+          "#messageEmitter": "Human",
+          "traceparent": "00-b74c9297a75c78dd03d06d6e1ff7ced7-59c3a6ce19c3aa29-01",
+          "#uniqueId": "6b90f8a9-e644-4cd0-a141-02aa1c9b6c35",
+          "#date_processed": "1725570854579",
+          "date_created": "1725570854557",
+          "#tunnel.owner": "medprevvendasrouter1@msging.net",
+          "#tunnel.originator": "5541995818053@wa.gw.msging.net",
+          "#tunnel.originalFrom": "transbordovendas2@msging.net/msging-application-builder-hosting-enterprise-5dn52",
+          "#tunnel.originalTo": "4f950452-f449-4904-8e0f-3ca7d905ddf7@tunnel.msging.net",
+          "$originator": "medprevvendasrouter1@msging.net",
+          "$claims": "Node=medprevvendasrouter1@msging.net/msging-application-router-hosting-enterprise-vjddg;Identity=medprevvendasrouter1@msging.net;DomainRole=Member;AuthenticationScheme=Transport",
+          "$internalId": "6b90f8a9-e644-4cd0-a141-02aa1c9b6c35",
+          "$originatorSessionRemoteNode": "enterprise.master.hosting@msging.net/!msging-server-6wf6z-qs86dnqy",
+          "#messageKind": "Response"
+        }
+      },
+      {
+        "id": "wamid.HBgMNTU0MTk1ODE4MDUzFQIAEhggMjAzREY4Q0VGMjRGN0ZCQjExNTE3RDdCMDdGMkU0REYA",
+        "direction": "received",
+        "type": "text/plain",
+        "content": "06081981",
+        "date": "2024-09-05T21:13:10.125Z",
+        "status": "dispatched",
+        "metadata": {
+          "$elapsedTimeToStorage": "00:00:00.0122128",
+          "#wa.timestamp": "1725570789",
+          "traceparent": "00-3b49f3dd5efcedc691cebce8db0014db-71c90be023463221-01",
+          "$internalId": "1eed31d0-a432-473f-9527-a28dbb48838d",
+          "$originatorSessionRemoteNode": "postmaster@wa.gw.msging.net/#msging-gateway-whatsapp-rjnnw",
+          "#uniqueId": "1eed31d0-a432-473f-9527-a28dbb48838d",
+          "#date_processed": "1725570790118",
+          "date_created": "1725570790115"
+        }
+      },
+      {
+        "id": "wamid.HBgMNTU0MTk1ODE4MDUzFQIAEhggMDMzQThDMzc4QTIzMTcwRkM1MDc5NTVFQkJEQTFEQkUA",
+        "direction": "received",
+        "type": "text/plain",
+        "content": "Priscila Domingues Vieira Toniolo",
+        "date": "2024-09-05T21:13:03.774Z",
+        "status": "dispatched",
+        "metadata": {
+          "$elapsedTimeToStorage": "00:00:00.0095865",
+          "#wa.timestamp": "1725570782",
+          "traceparent": "00-345729bf8af35b2292e089c42940fd9c-a873c26121e7a15f-01",
+          "$internalId": "3ed3c2c5-2c85-46c9-a291-f8383826a267",
+          "$originatorSessionRemoteNode": "postmaster@wa.gw.msging.net/#msging-gateway-whatsapp-zcl5p",
+          "#uniqueId": "3ed3c2c5-2c85-46c9-a291-f8383826a267",
+          "#date_processed": "1725570783768",
+          "date_created": "1725570783765"
+        }
+      },
+      {
+        "id": "wamid.HBgMNTU0MTk1ODE4MDUzFQIAEhggNEJFODNDQ0JDNzcwQ0JDRDE0NjQ0MjUxMDFDNDUwRjYA",
+        "direction": "received",
+        "type": "text/plain",
+        "content": "03584168929",
+        "date": "2024-09-05T21:13:00.550Z",
+        "status": "dispatched",
+        "metadata": {
+          "$elapsedTimeToStorage": "00:00:00.0099744",
+          "#wa.timestamp": "1725570779",
+          "traceparent": "00-e923b54356b8a838a659cbf7f20f9742-639b71c3f19002c3-01",
+          "$internalId": "ce098b98-7012-4d3d-9010-a1738243b702",
+          "$originatorSessionRemoteNode": "postmaster@wa.gw.msging.net/#msging-gateway-whatsapp-xqhfc",
+          "#uniqueId": "ce098b98-7012-4d3d-9010-a1738243b702",
+          "#date_processed": "1725570780543",
+          "date_created": "1725570780541"
+        }
+      },
+      {
+        "id": "fwd:fwd:c9d1c1e6-859e-4582-be6e-3bb361fb2c8e",
+        "direction": "sent",
+        "type": "text/plain",
+        "content": "Olá, tudo bem?\nMeu nome é Vitória, vou seguir com seu atendimento!\nPara realizar seu orçamento, preciso dos seguintes dados:\n* CPF;\n* Nome completo;\n* Data de nascimento;",
+        "date": "2024-09-05T21:12:28.434Z",
+        "status": "consumed",
+        "metadata": {
+          "$elapsedTimeToStorage": "00:00:00.0086457",
+          "#messageEmitter": "Human",
+          "traceparent": "00-96ba0a23fe0d976986f5732bc3f1ea3c-38b4d13ece7e6171-01",
+          "#uniqueId": "8aae4582-a37c-47ca-8cc8-0c9017d2b8cd",
+          "#date_processed": "1725570748428",
+          "date_created": "1725570748403",
+          "#tunnel.owner": "medprevvendasrouter1@msging.net",
+          "#tunnel.originator": "5541995818053@wa.gw.msging.net",
+          "#tunnel.originalFrom": "transbordovendas2@msging.net/msging-application-builder-hosting-enterprise-cd6zp",
+          "#tunnel.originalTo": "4f950452-f449-4904-8e0f-3ca7d905ddf7@tunnel.msging.net",
+          "$originator": "medprevvendasrouter1@msging.net",
+          "$claims": "Node=medprevvendasrouter1@msging.net/msging-application-router-hosting-enterprise-bvrxj;Identity=medprevvendasrouter1@msging.net;DomainRole=Member;AuthenticationScheme=Transport",
+          "$internalId": "8aae4582-a37c-47ca-8cc8-0c9017d2b8cd",
+          "$originatorSessionRemoteNode": "enterprise.master.hosting@msging.net/!msging-server-bkr52-qs86dnqy",
+          "#messageKind": "Response"
+        }
+      },
+      {
+        "id": "wamid.HBgMNTU0MTk1ODE4MDUzFQIAEhggMUJFMEQ1QUY4M0I4OEMyMjlFRkUzNzhDQ0JENjdFRDkA",
+        "direction": "received",
+        "type": "text/plain",
+        "content": "Oie",
+        "date": "2024-09-05T20:15:46.329Z",
+        "status": "dispatched",
+        "metadata": {
+          "$elapsedTimeToStorage": "00:00:00.0114797",
+          "#wa.timestamp": "1725567345",
+          "traceparent": "00-308de8d1bf13d09ebcb164ee8b5bcad1-dfd9c43b3518c1ea-01",
+          "$internalId": "86fbdb12-6dcf-487b-a712-167ad77e50ef",
+          "$originatorSessionRemoteNode": "postmaster@wa.gw.msging.net/#msging-gateway-whatsapp-8g7fb",
+          "#uniqueId": "86fbdb12-6dcf-487b-a712-167ad77e50ef",
+          "#date_processed": "1725567346323",
+          "date_created": "1725567346319"
+        }
+      },
+      {
+        "id": "53ceac5b-ea00-4a87-a889-0191c3c42355",
+        "direction": "received",
+        "type": "application/vnd.iris.ticket+json",
+        "content": {
+          "id": "53ceac5b-ea00-4a87-a889-0191c3c42355",
+          "sequentialId": 82324,
+          "ownerIdentity": "transbordovendas2@msging.net",
+          "customerIdentity": "4f950452-f449-4904-8e0f-3ca7d905ddf7@tunnel.msging.net",
+          "customerDomain": "wa.gw.msging.net",
+          "provider": "Lime",
+          "status": "Waiting",
+          "storageDate": "2024-09-05T19:58:16.917Z",
+          "externalId": "53ceac5b-ea00-4a87-a889-0191c3c42355",
+          "rating": 0,
+          "team": "Grande Curitiba - Exames",
+          "unreadMessages": 0,
+          "closed": false,
+          "customerInput": {
+            "type": "text/plain",
+            "value": "{\"origin\":\"exame\",\"destination\":\"transbordo\",\"userInput\":{\"input\":\"Rx panorâmica l ( bucal )\",\"inputType\":\"text/plain\"},\"flow\":{\"blockOrigin\":\"99815b80-ecd3-46b6-b6d5-a658eeb8d4b4\",\"destinyBlock\":\"default\"}}"
+          },
+          "priority": 0
+        },
+        "date": "2024-09-05T19:58:16.969Z"
+      },
+      {
+        "id": "0709a723-f7ac-4e94-a2c5-e81af3abe5e6",
+        "direction": "sent",
+        "type": "text/plain",
+        "content": "Aguarde ✋Estamos localizando um atendente.                                         \n",
+        "date": "2024-09-05T19:58:16.428Z",
+        "status": "consumed",
+        "metadata": {
+          "$elapsedTimeToStorage": "00:00:00.0113049",
+          "#stateName": "[T.4.0][MSG] Atendimento",
+          "#stateId": "3b9cb507-9b19-4693-8af6-a961ed059cfe",
+          "#messageId": "context:86b5db37-9d90-4657-9102-4213ffb860eb",
+          "#previousStateId": "5ad2fe89-64a7-4781-a843-93c82a4c391c",
+          "#previousStateName": "[GO TO] Atendimento",
+          "traceparent": "00-8c38d5f1d7218cddfe8346d9e3e7f85d-f202dc098ef22c76-01",
+          "#uniqueId": "b84ede73-f9f9-441b-b152-247d681a08b0",
+          "#date_processed": "1725566296423",
+          "date_created": "1725566296410",
+          "#tunnel.owner": "medprevvendasrouter1@msging.net",
+          "#tunnel.originator": "5541995818053@wa.gw.msging.net",
+          "#tunnel.originalFrom": "transbordovendas2@msging.net/msging-application-builder-hosting-enterprise-8scmk",
+          "#tunnel.originalTo": "4f950452-f449-4904-8e0f-3ca7d905ddf7@tunnel.msging.net",
+          "$originator": "medprevvendasrouter1@msging.net",
+          "$claims": "Node=medprevvendasrouter1@msging.net/msging-application-router-hosting-enterprise-27279;Identity=medprevvendasrouter1@msging.net;DomainRole=Member;AuthenticationScheme=Transport",
+          "$internalId": "b84ede73-f9f9-441b-b152-247d681a08b0",
+          "$originatorSessionRemoteNode": "enterprise.master.hosting@msging.net/!msging-server-nswwl-qs86dnqy",
+          "#messageKind": "Response"
+        }
+      },
+      {
+        "id": "042fd69a-1d3c-4d47-b476-cfb0bf35faa5",
+        "direction": "sent",
+        "type": "text/plain",
+        "content": "Obrigada Priscila Domingues Vieira Toniolo, você está sendo direcionado para um de nossos atendentes continuar com você. 😉\n\n⚠️ Importante: Conversas que não tenham interação por 10 minutos são automaticamente encerradas.",
+        "date": "2024-09-05T19:58:14.974Z",
+        "status": "consumed",
+        "metadata": {
+          "$elapsedTimeToStorage": "00:00:00.0076419",
+          "#stateName": "[2.2][MSG] Pré-Transbordo",
+          "#stateId": "665a24cc-5d6f-4390-8c6c-7e829ec92e2a",
+          "#messageId": "wamid.HBgMNTU0MTk1ODE4MDUzFQIAEhggRDY4MzM0RTJEMTI3QTZGMDkyQTVDM0RDNzdBOUNEMzYA",
+          "#previousStateId": "cd895b40-5aab-4647-9c15-77191a1913ab",
+          "#previousStateName": "[2.1][INPUT] Recebe foto",
+          "traceparent": "00-8c38d5f1d7218cddfe8346d9e3e7f85d-f18d38229c573183-01",
+          "#uniqueId": "080ddaac-904a-4ef5-8b25-7c774ebfb731",
+          "#date_processed": "1725566294970",
+          "date_created": "1725566294956",
+          "#tunnel.owner": "medprevvendasrouter1@msging.net",
+          "#tunnel.originator": "5541995818053@wa.gw.msging.net",
+          "#tunnel.originalFrom": "examesvendas@msging.net/msging-application-builder-hosting-enterprise-6r5pb",
+          "#tunnel.originalTo": "8efcaae9-9e48-4657-bc7f-abfd37343515@tunnel.msging.net",
+          "$originator": "medprevvendasrouter1@msging.net",
+          "$claims": "Node=medprevvendasrouter1@msging.net/msging-application-router-hosting-enterprise-bvrxj;Identity=medprevvendasrouter1@msging.net;DomainRole=Member;AuthenticationScheme=Transport",
+          "$internalId": "080ddaac-904a-4ef5-8b25-7c774ebfb731",
+          "$originatorSessionRemoteNode": "enterprise.master.hosting@msging.net/!msging-server-6wf6z-qs86dnqy",
+          "#messageKind": "Response"
+        }
+      },
+      {
+        "id": "wamid.HBgMNTU0MTk1ODE4MDUzFQIAEhggRDY4MzM0RTJEMTI3QTZGMDkyQTVDM0RDNzdBOUNEMzYA",
+        "direction": "received",
+        "type": "text/plain",
+        "content": "Rx panorâmica l ( bucal )",
+        "date": "2024-09-05T19:58:13.850Z",
+        "status": "dispatched",
+        "metadata": {
+          "$elapsedTimeToStorage": "00:00:00.0110281",
+          "#wa.timestamp": "1725566292",
+          "traceparent": "00-8c38d5f1d7218cddfe8346d9e3e7f85d-92cab7f68ce61044-01",
+          "$internalId": "f49d1966-4cf6-4856-9fcb-0e42891b9a8d",
+          "$originatorSessionRemoteNode": "postmaster@wa.gw.msging.net/#msging-gateway-whatsapp-8g7fb",
+          "#uniqueId": "f49d1966-4cf6-4856-9fcb-0e42891b9a8d",
+          "#date_processed": "1725566293845",
+          "date_created": "1725566293841"
+        }
+      },
+      {
+        "id": "68583b97-fb81-472b-932d-8d1d3d96f116",
+        "direction": "sent",
+        "type": "text/plain",
+        "content": "Me envie, por gentileza, <b>o pedido médico</b> (foto 📷 ou arquivo 📂) ou <b>informe o nome do exame</b>.",
+        "date": "2024-09-05T19:57:46.326Z",
+        "status": "consumed",
+        "metadata": {
+          "$elapsedTimeToStorage": "00:00:00.0068162",
+          "#stateName": "[2.0][MSG] Pede foto",
+          "#stateId": "99815b80-ecd3-46b6-b6d5-a658eeb8d4b4",
+          "#messageId": "wamid.HBgMNTU0MTk1ODE4MDUzFQIAEhggODlGOURGRTg5RDZENzJGOTk0NDIxOUNBMUIyNTdDQzIA",
+          "#previousStateId": "9432b003-3c2a-4028-b5f5-db5831d012f2",
+          "#previousStateName": "[GO TO] Foto",
+          "traceparent": "00-3ccc6a261f288c777207a80d1072b80a-c5424a6a5493a11b-01",
+          "#uniqueId": "bcf607bf-0a49-4b14-8793-a0870450fb2b",
+          "#date_processed": "1725566266322",
+          "date_created": "1725566266306",
+          "#tunnel.owner": "medprevvendasrouter1@msging.net",
+          "#tunnel.originator": "5541995818053@wa.gw.msging.net",
+          "#tunnel.originalFrom": "examesvendas@msging.net/msging-application-builder-hosting-enterprise-cd6zp",
+          "#tunnel.originalTo": "8efcaae9-9e48-4657-bc7f-abfd37343515@tunnel.msging.net",
+          "$originator": "medprevvendasrouter1@msging.net",
+          "$claims": "Node=medprevvendasrouter1@msging.net/msging-application-router-hosting-enterprise-8tmmp;Identity=medprevvendasrouter1@msging.net;DomainRole=Member;AuthenticationScheme=Transport",
+          "$internalId": "bcf607bf-0a49-4b14-8793-a0870450fb2b",
+          "$originatorSessionRemoteNode": "enterprise.master.hosting@msging.net/!msging-server-jd42c-qs86dnqy",
+          "#messageKind": "Response"
+        }
+      },
+      {
+        "id": "wamid.HBgMNTU0MTk1ODE4MDUzFQIAEhggODlGOURGRTg5RDZENzJGOTk0NDIxOUNBMUIyNTdDQzIA",
+        "direction": "received",
+        "type": "application/vnd.lime.reply+json",
+        "content": {
+          "replied": {
+            "type": "text/plain",
+            "value": "Orçar"
+          },
+          "inReplyTo": {
+            "id": "0b3cb06f-3103-4c41-8ce0-950e905ff484",
+            "type": "application/vnd.lime.select+json",
+            "value": {
+              "scope": "immediate",
+              "text": "Você gostaria de:",
+              "options": [
+                {
+                  "text": "Agendar"
+                },
+                {
+                  "text": "Orçar"
+                }
+              ]
+            },
+            "direction": "sent"
+          }
+        },
+        "date": "2024-09-05T19:57:45.173Z",
+        "status": "dispatched",
+        "metadata": {
+          "$elapsedTimeToStorage": "00:00:00.0095672",
+          "#wa.timestamp": "1725566264",
+          "#wa.context.from": "554132336908",
+          "#wa.context.id": "wamid.HBgMNTU0MTk1ODE4MDUzFQIAERgSM0U2NUU0N0E3M0I0RkMyOUE1AA==",
+          "#wa.context.group_id": null,
+          "#wa.forwarded": null,
+          "#wa.frequently_forwarded": null,
+          "#wa.interactive.button.id": "Orçar",
+          "#wa.message.id": "wamid.HBgMNTU0MTk1ODE4MDUzFQIAERgSM0U2NUU0N0E3M0I0RkMyOUE1AA==",
+          "traceparent": "00-3ccc6a261f288c777207a80d1072b80a-7d2124613394746f-01",
+          "#inReplyToId": "wamid.HBgMNTU0MTk1ODE4MDUzFQIAERgSM0U2NUU0N0E3M0I0RkMyOUE1AA==",
+          "#messageReferenceInternalID": "22c5c0f6-7812-4c3c-9d69-6032897d742d",
+          "$internalId": "6e1a86fb-cc1e-4599-9749-ec9549431c42",
+          "$originatorSessionRemoteNode": "postmaster@wa.gw.msging.net/#msging-gateway-whatsapp-qtrnz",
+          "#uniqueId": "6e1a86fb-cc1e-4599-9749-ec9549431c42",
+          "#date_processed": "1725566265169",
+          "date_created": "1725566265165"
+        }
+      },
+      {
+        "id": "0b3cb06f-3103-4c41-8ce0-950e905ff484",
+        "direction": "sent",
+        "type": "application/vnd.lime.select+json",
+        "content": {
+          "scope": "immediate",
+          "text": "Você gostaria de:",
+          "options": [
+            {
+              "text": "Agendar"
+            },
+            {
+              "text": "Orçar"
+            }
+          ]
+        },
+        "date": "2024-09-05T19:57:40.504Z",
+        "status": "consumed",
+        "metadata": {
+          "$elapsedTimeToStorage": "00:00:00.0080648",
+          "#stateName": "[1.0][MSG] Menu Agendar/Orçar",
+          "#stateId": "c1809fff-21c5-4267-8b49-0ba83ed23ad5",
+          "#messageId": "context:900ae59f-8d37-44c6-8098-ee39c4478e01",
+          "#previousStateId": "cf549c49-5cb6-479f-8731-bfbdc02d8eef",
+          "#previousStateName": "[GO TO] Menu",
+          "traceparent": "00-f51e064903568af5796222cf0efed350-6408f3c91d43f907-01",
+          "#uniqueId": "22c5c0f6-7812-4c3c-9d69-6032897d742d",
+          "#date_processed": "1725566260501",
+          "date_created": "1725566260486",
+          "#tunnel.owner": "medprevvendasrouter1@msging.net",
+          "#tunnel.originator": "5541995818053@wa.gw.msging.net",
+          "#tunnel.originalFrom": "examesvendas@msging.net/msging-application-builder-hosting-enterprise-h29xp",
+          "#tunnel.originalTo": "8efcaae9-9e48-4657-bc7f-abfd37343515@tunnel.msging.net",
+          "$originator": "medprevvendasrouter1@msging.net",
+          "$claims": "Node=medprevvendasrouter1@msging.net/msging-application-router-hosting-enterprise-hrpz7;Identity=medprevvendasrouter1@msging.net;DomainRole=Member;AuthenticationScheme=Transport",
+          "$internalId": "22c5c0f6-7812-4c3c-9d69-6032897d742d",
+          "$originatorSessionRemoteNode": "enterprise.master.hosting@msging.net/!msging-server-6wf6z-qs86dnqy",
+          "#messageKind": "Response"
+        }
+      },
+      {
+        "id": "wamid.HBgMNTU0MTk1ODE4MDUzFQIAEhggQURDQzQ0Q0EwNEQ5RURFODA5Qzc0MDY0ODRDQkQxMzcA",
+        "direction": "received",
+        "type": "application/vnd.lime.reply+json",
+        "content": {
+          "replied": {
+            "type": "text/plain",
+            "value": "Exames"
+          },
+          "inReplyTo": {
+            "id": "334891d4-74b1-4ffa-87f2-9c3a2b4e2959",
+            "type": "application/vnd.lime.select+json",
+            "value": {
+              "text": "Vamos lá! Selecione o item que você gostaria de agendar/orçar 👇🏼",
+              "options": [
+                {
+                  "text": "Consultas presenciais"
+                },
+                {
+                  "text": "Teleconsulta"
+                },
+                {
+                  "text": "Exames"
+                },
+                {
+                  "text": "Cirurgias/Odontologia"
+                },
+                {
+                  "text": "Encerrar conversa"
+                }
+              ]
+            },
+            "direction": "sent"
+          }
+        },
+        "date": "2024-09-05T19:57:38.915Z",
+        "status": "dispatched",
+        "metadata": {
+          "$elapsedTimeToStorage": "00:00:00.0102057",
+          "#wa.timestamp": "1725566257",
+          "#wa.context.from": "554132336908",
+          "#wa.context.id": "wamid.HBgMNTU0MTk1ODE4MDUzFQIAERgSNjM0OTVCMTA0QkEyMTQxMTlFAA==",
+          "#wa.context.group_id": null,
+          "#wa.forwarded": null,
+          "#wa.frequently_forwarded": null,
+          "#wa.interactive.list.id": "Exames",
+          "traceparent": "00-f51e064903568af5796222cf0efed350-09719e1cefdd05f9-01",
+          "#inReplyToId": "wamid.HBgMNTU0MTk1ODE4MDUzFQIAERgSNjM0OTVCMTA0QkEyMTQxMTlFAA==",
+          "#messageReferenceInternalID": "144c8b2e-4e81-455d-9ed8-9dba79057662",
+          "$internalId": "0430002e-e021-4d88-97d7-a9cf65cbf627",
+          "$originatorSessionRemoteNode": "postmaster@wa.gw.msging.net/#msging-gateway-whatsapp-xqhfc",
+          "#uniqueId": "0430002e-e021-4d88-97d7-a9cf65cbf627",
+          "#date_processed": "1725566258908",
+          "date_created": "1725566258906"
+        }
+      },
+      {
+        "id": "334891d4-74b1-4ffa-87f2-9c3a2b4e2959",
+        "direction": "sent",
+        "type": "application/vnd.lime.select+json",
+        "content": {
+          "text": "Vamos lá! Selecione o item que você gostaria de agendar/orçar 👇🏼",
+          "options": [
+            {
+              "text": "Consultas presenciais"
+            },
+            {
+              "text": "Teleconsulta"
+            },
+            {
+              "text": "Exames"
+            },
+            {
+              "text": "Cirurgias/Odontologia"
+            },
+            {
+              "text": "Encerrar conversa"
+            }
+          ]
+        },
+        "date": "2024-09-05T19:57:26.666Z",
+        "status": "consumed",
+        "metadata": {
+          "$elapsedTimeToStorage": "00:00:00.0090920",
+          "#stateName": "[3.0][MSG] Menu Curitiba e Região",
+          "#stateId": "54cf9a47-ca11-4206-bbaa-416ada63b6fe",
+          "#messageId": "wamid.HBgMNTU0MTk1ODE4MDUzFQIAEhggNzlBRkI3QzczNUZGNUM3RUE3OUE0RURDQjQ1OTY0NkMA",
+          "#previousStateId": "7ca36626-70b7-42a5-ac34-d824c2ca67af",
+          "#previousStateName": "[GO TO] Menu Curitiba e região",
+          "traceparent": "00-734a5423c29b3e3d8d699cb8d8a6fed5-4d2e6022cd6c9be8-01",
+          "#uniqueId": "144c8b2e-4e81-455d-9ed8-9dba79057662",
+          "#date_processed": "1725566246662",
+          "date_created": "1725566246643",
+          "#tunnel.owner": "medprevvendasrouter1@msging.net",
+          "#tunnel.originator": "5541995818053@wa.gw.msging.net",
+          "#tunnel.originalFrom": "principalvendas3@msging.net/msging-application-builder-hosting-enterprise-h29xp",
+          "#tunnel.originalTo": "c8630be3-24fa-45ab-b5ac-45752e829c8b@tunnel.msging.net",
+          "$originator": "medprevvendasrouter1@msging.net",
+          "$claims": "Node=medprevvendasrouter1@msging.net/msging-application-router-hosting-enterprise-vjddg;Identity=medprevvendasrouter1@msging.net;DomainRole=Member;AuthenticationScheme=Transport",
+          "$internalId": "144c8b2e-4e81-455d-9ed8-9dba79057662",
+          "$originatorSessionRemoteNode": "enterprise.master.hosting@msging.net/!msging-server-nswwl-qs86dnqy",
+          "#messageKind": "Response"
+        }
+      },
+      {
+        "id": "12b0a17e-2966-4f4a-9ae3-4634c4655b20",
+        "direction": "sent",
+        "type": "text/plain",
+        "content": "💡 Dica: Quando quiser retornar ao menu principal, digite <b>0</b> ou digite <b>SAIR</b> para encerrar o atendimento.",
+        "date": "2024-09-05T19:57:25.666Z",
+        "status": "consumed",
+        "metadata": {
+          "$elapsedTimeToStorage": "00:00:00.0101833",
+          "#stateName": "[3.0][MSG] Menu Curitiba e Região",
+          "#stateId": "54cf9a47-ca11-4206-bbaa-416ada63b6fe",
+          "#messageId": "wamid.HBgMNTU0MTk1ODE4MDUzFQIAEhggNzlBRkI3QzczNUZGNUM3RUE3OUE0RURDQjQ1OTY0NkMA",
+          "#previousStateId": "7ca36626-70b7-42a5-ac34-d824c2ca67af",
+          "#previousStateName": "[GO TO] Menu Curitiba e região",
+          "traceparent": "00-734a5423c29b3e3d8d699cb8d8a6fed5-b80f776def4f6993-01",
+          "#uniqueId": "a43045b1-84da-4b24-91e4-9e0fed439a0b",
+          "#date_processed": "1725566245661",
+          "date_created": "1725566245641",
+          "#tunnel.owner": "medprevvendasrouter1@msging.net",
+          "#tunnel.originator": "5541995818053@wa.gw.msging.net",
+          "#tunnel.originalFrom": "principalvendas3@msging.net/msging-application-builder-hosting-enterprise-h29xp",
+          "#tunnel.originalTo": "c8630be3-24fa-45ab-b5ac-45752e829c8b@tunnel.msging.net",
+          "$originator": "medprevvendasrouter1@msging.net",
+          "$claims": "Node=medprevvendasrouter1@msging.net/msging-application-router-hosting-enterprise-ctr76;Identity=medprevvendasrouter1@msging.net;DomainRole=Member;AuthenticationScheme=Transport",
+          "$internalId": "a43045b1-84da-4b24-91e4-9e0fed439a0b",
+          "$originatorSessionRemoteNode": "enterprise.master.hosting@msging.net/!msging-server-bhxxq-qs86dnqy",
+          "#messageKind": "Response"
+        }
+      },
+      {
+        "id": "wamid.HBgMNTU0MTk1ODE4MDUzFQIAEhggNzlBRkI3QzczNUZGNUM3RUE3OUE0RURDQjQ1OTY0NkMA",
+        "direction": "received",
+        "type": "text/plain",
+        "content": "81770000",
+        "date": "2024-09-05T19:57:22.034Z",
+        "status": "dispatched",
+        "metadata": {
+          "$elapsedTimeToStorage": "00:00:00.0119044",
+          "#wa.timestamp": "1725566240",
+          "traceparent": "00-734a5423c29b3e3d8d699cb8d8a6fed5-6486336783274e35-01",
+          "$internalId": "dd009dd1-e0ba-4f79-b1e7-6f6024cc58c7",
+          "$originatorSessionRemoteNode": "postmaster@wa.gw.msging.net/#msging-gateway-whatsapp-8g7fb",
+          "#uniqueId": "dd009dd1-e0ba-4f79-b1e7-6f6024cc58c7",
+          "#date_processed": "1725566242028",
+          "date_created": "1725566242023"
+        }
+      },
+      {
+        "id": "d45afa7c-ec02-4edc-90dc-dae0beb6c796",
+        "direction": "sent",
+        "type": "text/plain",
+        "content": "📍​ <b>Informe seu CEP ou sua localização:</b>\nOpções:\n• Digite o CEP no formato 00000-000 (com tracinho).\n• Compartilhe sua localização no WhatsApp.",
+        "date": "2024-09-05T19:57:05.192Z",
+        "status": "consumed",
+        "metadata": {
+          "$elapsedTimeToStorage": "00:00:00.0115948",
+          "#stateName": "[2.0][MSG] Pergunta CEP",
+          "#stateId": "4c94528a-ffc9-452b-ab2a-4d955637109a",
+          "#messageId": "wamid.HBgMNTU0MTk1ODE4MDUzFQIAEhggNTI1ODNCMUQ3REY0M0VGMUU0RUY4OURFNDRFRDUyQTUA",
+          "#previousStateId": "e88f49c0-e2c7-41e0-abd0-191cb26f16fd",
+          "#previousStateName": "[GO TO] CEP",
+          "traceparent": "00-4f05dfc70acf2644f62b4e0337fcd676-1967880302920877-01",
+          "#uniqueId": "92c0dcdc-0c68-4858-99ba-6a073b51101d",
+          "#date_processed": "1725566225189",
+          "date_created": "1725566225169",
+          "#tunnel.owner": "medprevvendasrouter1@msging.net",
+          "#tunnel.originator": "5541995818053@wa.gw.msging.net",
+          "#tunnel.originalFrom": "principalvendas3@msging.net/msging-application-builder-hosting-enterprise-nvp2h",
+          "#tunnel.originalTo": "c8630be3-24fa-45ab-b5ac-45752e829c8b@tunnel.msging.net",
+          "$originator": "medprevvendasrouter1@msging.net",
+          "$claims": "Node=medprevvendasrouter1@msging.net/msging-application-router-hosting-enterprise-vjddg;Identity=medprevvendasrouter1@msging.net;DomainRole=Member;AuthenticationScheme=Transport",
+          "$internalId": "92c0dcdc-0c68-4858-99ba-6a073b51101d",
+          "$originatorSessionRemoteNode": "enterprise.master.hosting@msging.net/!msging-server-phdwr-qs86dnqy",
+          "#messageKind": "Response"
+        }
+      },
+      {
+        "id": "wamid.HBgMNTU0MTk1ODE4MDUzFQIAEhggNTI1ODNCMUQ3REY0M0VGMUU0RUY4OURFNDRFRDUyQTUA",
+        "direction": "received",
+        "type": "application/vnd.lime.reply+json",
+        "content": {
+          "replied": {
+            "type": "text/plain",
+            "value": "Sim"
+          },
+          "inReplyTo": {
+            "id": "396990c6-4cdf-4798-a00a-f68af6086771",
+            "type": "application/vnd.lime.select+json",
+            "value": {
+              "scope": "immediate",
+              "text": "Podemos continuar?",
+              "options": [
+                {
+                  "text": "Sim"
+                },
+                {
+                  "text": "Não"
+                }
+              ]
+            },
+            "direction": "sent"
+          }
+        },
+        "date": "2024-09-05T19:57:03.868Z",
+        "status": "dispatched",
+        "metadata": {
+          "$elapsedTimeToStorage": "00:00:00.0101961",
+          "#wa.timestamp": "1725566222",
+          "#wa.context.from": "554132336908",
+          "#wa.context.id": "wamid.HBgMNTU0MTk1ODE4MDUzFQIAERgSNzc5M0FBNDVBNDU0QkY0NDU0AA==",
+          "#wa.context.group_id": null,
+          "#wa.forwarded": null,
+          "#wa.frequently_forwarded": null,
+          "#wa.interactive.button.id": "Sim",
+          "#wa.message.id": "wamid.HBgMNTU0MTk1ODE4MDUzFQIAERgSNzc5M0FBNDVBNDU0QkY0NDU0AA==",
+          "traceparent": "00-4f05dfc70acf2644f62b4e0337fcd676-0767880741dc9261-01",
+          "#inReplyToId": "wamid.HBgMNTU0MTk1ODE4MDUzFQIAERgSNzc5M0FBNDVBNDU0QkY0NDU0AA==",
+          "#messageReferenceInternalID": "8a4bc52a-9e6f-4077-9bc2-25044a3cb0f8",
+          "$internalId": "0cc78755-a55a-4ea0-92ba-9a5d33634391",
+          "$originatorSessionRemoteNode": "postmaster@wa.gw.msging.net/#msging-gateway-whatsapp-xsb65",
+          "#uniqueId": "0cc78755-a55a-4ea0-92ba-9a5d33634391",
+          "#date_processed": "1725566223864",
+          "date_created": "1725566223860"
+        }
+      },
+      {
+        "id": "396990c6-4cdf-4798-a00a-f68af6086771",
+        "direction": "sent",
+        "type": "application/vnd.lime.select+json",
+        "content": {
+          "scope": "immediate",
+          "text": "Podemos continuar?",
+          "options": [
+            {
+              "text": "Sim"
+            },
+            {
+              "text": "Não"
+            }
+          ]
+        },
+        "date": "2024-09-05T19:56:52.932Z",
+        "status": "consumed",
+        "metadata": {
+          "$elapsedTimeToStorage": "00:00:00.0060152",
+          "#stateName": "[4.0][MSG] Menu LGPD",
+          "#stateId": "739b674a-3f36-440e-8024-c79c661ea9b2",
+          "#messageId": "wamid.HBgMNTU0MTk1ODE4MDUzFQIAEhggODREMkRGQURCRDEwMTc1OTkzOEI5QzY2NEVFMDkxQTYA",
+          "#previousStateId": "6b130798-1f20-491d-87e2-175ef63c093c",
+          "#previousStateName": "[SELECT] LGPD Aceita?",
+          "traceparent": "00-f90dbeffa8beee5c56ba2dd57111b505-9fbd2907a5a47e71-01",
+          "#uniqueId": "8a4bc52a-9e6f-4077-9bc2-25044a3cb0f8",
+          "#date_processed": "1725566212928",
+          "date_created": "1725566212912",
+          "#tunnel.owner": "medprevvendasrouter1@msging.net",
+          "#tunnel.originator": "5541995818053@wa.gw.msging.net",
+          "#tunnel.originalFrom": "principalvendas3@msging.net/msging-application-builder-hosting-enterprise-c9wl4",
+          "#tunnel.originalTo": "c8630be3-24fa-45ab-b5ac-45752e829c8b@tunnel.msging.net",
+          "$originator": "medprevvendasrouter1@msging.net",
+          "$claims": "Node=medprevvendasrouter1@msging.net/msging-application-router-hosting-enterprise-bvrxj;Identity=medprevvendasrouter1@msging.net;DomainRole=Member;AuthenticationScheme=Transport",
+          "$internalId": "8a4bc52a-9e6f-4077-9bc2-25044a3cb0f8",
+          "$originatorSessionRemoteNode": "enterprise.master.hosting@msging.net/!msging-server-wzv48-qs86dnqy",
+          "#messageKind": "Response"
+        }
+      },
+      {
+        "id": "7605dee9-fb43-458d-8fc1-cce4b52ddd7e",
+        "direction": "sent",
+        "type": "text/plain",
+        "content": "Priscila Domingues Vieira Toniolo, é um prazer recebê-lo(a).\nSua privacidade é importante para nós!\n\n🔒  <b>Antes de continuar</b>:\nDurante o atendimento, vou precisar de alguns dados pessoais. Não se preocupe: suas informações serão tratadas de acordo com nossa política de privacidade, que você pode conferir aqui https://medprev.online/politica-de-privacidade/",
+        "date": "2024-09-05T19:56:51.923Z",
+        "status": "consumed",
+        "metadata": {
+          "$elapsedTimeToStorage": "00:00:00.0080326",
+          "#stateName": "[4.0][MSG] Menu LGPD",
+          "#stateId": "739b674a-3f36-440e-8024-c79c661ea9b2",
+          "#messageId": "wamid.HBgMNTU0MTk1ODE4MDUzFQIAEhggODREMkRGQURCRDEwMTc1OTkzOEI5QzY2NEVFMDkxQTYA",
+          "#previousStateId": "6b130798-1f20-491d-87e2-175ef63c093c",
+          "#previousStateName": "[SELECT] LGPD Aceita?",
+          "traceparent": "00-f90dbeffa8beee5c56ba2dd57111b505-cb9090da3bf78883-01",
+          "#uniqueId": "3e767a9c-7ff9-4443-996f-89ecffd016a6",
+          "#date_processed": "1725566211917",
+          "date_created": "1725566211903",
+          "#tunnel.owner": "medprevvendasrouter1@msging.net",
+          "#tunnel.originator": "5541995818053@wa.gw.msging.net",
+          "#tunnel.originalFrom": "principalvendas3@msging.net/msging-application-builder-hosting-enterprise-c9wl4",
+          "#tunnel.originalTo": "c8630be3-24fa-45ab-b5ac-45752e829c8b@tunnel.msging.net",
+          "$originator": "medprevvendasrouter1@msging.net",
+          "$claims": "Node=medprevvendasrouter1@msging.net/msging-application-router-hosting-enterprise-bvrxj;Identity=medprevvendasrouter1@msging.net;DomainRole=Member;AuthenticationScheme=Transport",
+          "$internalId": "3e767a9c-7ff9-4443-996f-89ecffd016a6",
+          "$originatorSessionRemoteNode": "enterprise.master.hosting@msging.net/!msging-server-bkr52-qs86dnqy",
+          "#messageKind": "Response"
+        }
+      },
+      {
+        "id": "wamid.HBgMNTU0MTk1ODE4MDUzFQIAEhggODREMkRGQURCRDEwMTc1OTkzOEI5QzY2NEVFMDkxQTYA",
+        "direction": "received",
+        "type": "application/vnd.lime.reply+json",
+        "content": {
+          "replied": {
+            "type": "text/plain",
+            "value": "Sim"
+          },
+          "inReplyTo": {
+            "id": "87700363-8f83-44eb-bccc-ab32a753434d",
+            "type": "application/vnd.lime.select+json",
+            "value": {
+              "scope": "immediate",
+              "text": "Só pra confirmar que entendi direito, o seu nome é Priscila Domingues Vieira Toniolo, certo?",
+              "options": [
+                {
+                  "text": "Sim"
+                },
+                {
+                  "text": "Não"
+                }
+              ]
+            },
+            "direction": "sent"
+          }
+        },
+        "date": "2024-09-05T19:56:50.561Z",
+        "status": "dispatched",
+        "metadata": {
+          "$elapsedTimeToStorage": "00:00:00.0127309",
+          "#wa.timestamp": "1725566209",
+          "#wa.context.from": "554132336908",
+          "#wa.context.id": "wamid.HBgMNTU0MTk1ODE4MDUzFQIAERgSNDhDNDM5MEEzNTY0NzM2MkY0AA==",
+          "#wa.context.group_id": null,
+          "#wa.forwarded": null,
+          "#wa.frequently_forwarded": null,
+          "#wa.interactive.button.id": "Sim",
+          "#wa.message.id": "wamid.HBgMNTU0MTk1ODE4MDUzFQIAERgSNDhDNDM5MEEzNTY0NzM2MkY0AA==",
+          "traceparent": "00-f90dbeffa8beee5c56ba2dd57111b505-c1d80bc03af4178f-01",
+          "#inReplyToId": "wamid.HBgMNTU0MTk1ODE4MDUzFQIAERgSNDhDNDM5MEEzNTY0NzM2MkY0AA==",
+          "#messageReferenceInternalID": "28fc4675-2cc0-43fa-9c84-4b19456d2ba2",
+          "$internalId": "cf12ea4b-bffe-4875-9b2b-30a2af49c294",
+          "$originatorSessionRemoteNode": "postmaster@wa.gw.msging.net/#msging-gateway-whatsapp-qtrnz",
+          "#uniqueId": "cf12ea4b-bffe-4875-9b2b-30a2af49c294",
+          "#date_processed": "1725566210554",
+          "date_created": "1725566210550"
+        }
+      },
+      {
+        "id": "87700363-8f83-44eb-bccc-ab32a753434d",
+        "direction": "sent",
+        "type": "application/vnd.lime.select+json",
+        "content": {
+          "scope": "immediate",
+          "text": "Só pra confirmar que entendi direito, o seu nome é Priscila Domingues Vieira Toniolo, certo?",
+          "options": [
+            {
+              "text": "Sim"
+            },
+            {
+              "text": "Não"
+            }
+          ]
+        },
+        "date": "2024-09-05T19:56:44.011Z",
+        "status": "consumed",
+        "metadata": {
+          "$elapsedTimeToStorage": "00:00:00.0081085",
+          "#stateName": "[1.4][MSG] Menu Nome correto",
+          "#stateId": "f19c6bb0-d263-40d2-8d74-9434fe436599",
+          "#messageId": "wamid.HBgMNTU0MTk1ODE4MDUzFQIAEhggNjQwODcwMUMwQjg5RDY2QjJDQzE3RDA2M0JEODEzNDIA",
+          "#previousStateId": "d9a4f5a0-2200-47a8-a7d3-1dda673dfc22",
+          "#previousStateName": "[1.3][INPUT] Pede nome",
+          "traceparent": "00-7b8da9d0a11b10ea0b70bed80ef686c5-4211d37ef7f2a078-01",
+          "#uniqueId": "28fc4675-2cc0-43fa-9c84-4b19456d2ba2",
+          "#date_processed": "1725566204006",
+          "date_created": "1725566203988",
+          "#tunnel.owner": "medprevvendasrouter1@msging.net",
+          "#tunnel.originator": "5541995818053@wa.gw.msging.net",
+          "#tunnel.originalFrom": "principalvendas3@msging.net/msging-application-builder-hosting-enterprise-5dn52",
+          "#tunnel.originalTo": "c8630be3-24fa-45ab-b5ac-45752e829c8b@tunnel.msging.net",
+          "$originator": "medprevvendasrouter1@msging.net",
+          "$claims": "Node=medprevvendasrouter1@msging.net/msging-application-router-hosting-enterprise-xp46n;Identity=medprevvendasrouter1@msging.net;DomainRole=Member;AuthenticationScheme=Transport",
+          "$internalId": "28fc4675-2cc0-43fa-9c84-4b19456d2ba2",
+          "$originatorSessionRemoteNode": "enterprise.master.hosting@msging.net/!msging-server-g5bsn-qs86dnqy",
+          "#messageKind": "Response"
+        }
+      },
+      {
+        "id": "wamid.HBgMNTU0MTk1ODE4MDUzFQIAEhggNjQwODcwMUMwQjg5RDY2QjJDQzE3RDA2M0JEODEzNDIA",
+        "direction": "received",
+        "type": "text/plain",
+        "content": "Priscila Domingues Vieira Toniolo",
+        "date": "2024-09-05T19:56:42.847Z",
+        "status": "dispatched",
+        "metadata": {
+          "$elapsedTimeToStorage": "00:00:00.0112350",
+          "#wa.timestamp": "1725566201",
+          "traceparent": "00-7b8da9d0a11b10ea0b70bed80ef686c5-5639511de9e23b47-01",
+          "$internalId": "7d3e96d3-98bb-4d87-ab31-9b6e77846993",
+          "$originatorSessionRemoteNode": "postmaster@wa.gw.msging.net/#msging-gateway-whatsapp-8g7fb",
+          "#uniqueId": "7d3e96d3-98bb-4d87-ab31-9b6e77846993",
+          "#date_processed": "1725566202842",
+          "date_created": "1725566202837"
+        }
+      },
+      {
+        "id": "c64c3856-5aaa-45a0-a8d3-498b91fced85",
+        "direction": "sent",
+        "type": "text/plain",
+        "content": "Por favor, me informe o seu <b>nome completo</b> ✍️",
+        "date": "2024-09-05T19:56:25.204Z",
+        "status": "consumed",
+        "metadata": {
+          "$elapsedTimeToStorage": "00:00:00.0112729",
+          "#stateName": "[1.2][MSG] Pede nome",
+          "#stateId": "31d11050-c3c8-476c-9b14-c3112935c9bc",
+          "#messageId": "wamid.HBgMNTU0MTk1ODE4MDUzFQIAEhggMzYyMTMxOTM4QzBCQzQzODYxQ0U4RThERjk3QzUyQzYA",
+          "#previousStateId": "4d9902ed-f2bb-4ed2-a94d-edf6bdf751a8",
+          "#previousStateName": "[GO TO] Pede nome",
+          "traceparent": "00-75853be442c792b86f80219369cf6fa8-22d8d485555e2524-01",
+          "#uniqueId": "a0f3347f-a2c8-4582-b6f2-0947957f236d",
+          "#date_processed": "1725566185199",
+          "date_created": "1725566185181",
+          "#tunnel.owner": "medprevvendasrouter1@msging.net",
+          "#tunnel.originator": "5541995818053@wa.gw.msging.net",
+          "#tunnel.originalFrom": "principalvendas3@msging.net/msging-application-builder-hosting-enterprise-hfcdd",
+          "#tunnel.originalTo": "c8630be3-24fa-45ab-b5ac-45752e829c8b@tunnel.msging.net",
+          "$originator": "medprevvendasrouter1@msging.net",
+          "$claims": "Node=medprevvendasrouter1@msging.net/msging-application-router-hosting-enterprise-bvrxj;Identity=medprevvendasrouter1@msging.net;DomainRole=Member;AuthenticationScheme=Transport",
+          "$internalId": "a0f3347f-a2c8-4582-b6f2-0947957f236d",
+          "$originatorSessionRemoteNode": "enterprise.master.hosting@msging.net/!msging-server-qj5wm-qs86dnqy",
+          "#messageKind": "Response"
+        }
+      },
+      {
+        "id": "wamid.HBgMNTU0MTk1ODE4MDUzFQIAEhggMzYyMTMxOTM4QzBCQzQzODYxQ0U4RThERjk3QzUyQzYA",
+        "direction": "received",
+        "type": "application/vnd.lime.reply+json",
+        "content": {
+          "replied": {
+            "type": "text/plain",
+            "value": "Agendar/Orçar"
+          },
+          "inReplyTo": {
+            "id": "260a4c60-09d7-413d-aa9d-5d552a5acded",
+            "type": "application/vnd.lime.select+json",
+            "value": {
+              "scope": "immediate",
+              "text": "Você gostaria de agendar/orçar ou falar sobre outro assunto?",
+              "options": [
+                {
+                  "text": "Agendar/Orçar"
+                },
+                {
+                  "text": "Outros assuntos"
+                }
+              ]
+            },
+            "direction": "sent"
+          }
+        },
+        "date": "2024-09-05T19:56:23.976Z",
+        "status": "dispatched",
+        "metadata": {
+          "$elapsedTimeToStorage": "00:00:00.0134838",
+          "#wa.timestamp": "1725566182",
+          "#wa.context.from": "554132336908",
+          "#wa.context.id": "wamid.HBgMNTU0MTk1ODE4MDUzFQIAERgSRDkzNUNDQjMyNzE0REJEMkVFAA==",
+          "#wa.context.group_id": null,
+          "#wa.forwarded": null,
+          "#wa.frequently_forwarded": null,
+          "#wa.interactive.button.id": "Agendar/Orçar",
+          "#wa.message.id": "wamid.HBgMNTU0MTk1ODE4MDUzFQIAERgSRDkzNUNDQjMyNzE0REJEMkVFAA==",
+          "traceparent": "00-75853be442c792b86f80219369cf6fa8-e1b319b5e28ab05d-01",
+          "#inReplyToId": "wamid.HBgMNTU0MTk1ODE4MDUzFQIAERgSRDkzNUNDQjMyNzE0REJEMkVFAA==",
+          "#messageReferenceInternalID": "70c9b7a6-8552-48b9-99af-7df6ef95db1a",
+          "$internalId": "82953542-f1de-4f03-980c-6f1df1274395",
+          "$originatorSessionRemoteNode": "postmaster@wa.gw.msging.net/#msging-gateway-whatsapp-xsb65",
+          "#uniqueId": "82953542-f1de-4f03-980c-6f1df1274395",
+          "#date_processed": "1725566183969",
+          "date_created": "1725566183964"
+        }
+      },
+      {
+        "id": "260a4c60-09d7-413d-aa9d-5d552a5acded",
+        "direction": "sent",
+        "type": "application/vnd.lime.select+json",
+        "content": {
+          "scope": "immediate",
+          "text": "Você gostaria de agendar/orçar ou falar sobre outro assunto?",
+          "options": [
+            {
+              "text": "Agendar/Orçar"
+            },
+            {
+              "text": "Outros assuntos"
+            }
+          ]
+        },
+        "date": "2024-09-05T19:56:10.002Z",
+        "status": "consumed",
+        "metadata": {
+          "$elapsedTimeToStorage": "00:00:00.0101501",
+          "#stateName": "[6.0][MSG] Menu Prosseguir/Agendar",
+          "#stateId": "eb167447-14ff-4673-af99-88a96a8c6d3a",
+          "#messageId": "wamid.HBgMNTU0MTk1ODE4MDUzFQIAEhggQkE4NjVCQzU4Qjk4NEQxOUZGN0Q1RDJBODI1NEVCRUQA",
+          "#previousStateId": "07a7a110-d6a6-4ba1-9d8d-9c4ffed337d8",
+          "#previousStateName": "[1.0][MSG] Saudação",
+          "traceparent": "00-95903fdc0659a3a657df058c2f6b4c5e-94b2b4fc7c0f636e-01",
+          "#uniqueId": "70c9b7a6-8552-48b9-99af-7df6ef95db1a",
+          "#date_processed": "1725566169998",
+          "date_created": "1725566169972",
+          "#tunnel.owner": "medprevvendasrouter1@msging.net",
+          "#tunnel.originator": "5541995818053@wa.gw.msging.net",
+          "#tunnel.originalFrom": "principalvendas3@msging.net/msging-application-builder-hosting-enterprise-5dn52",
+          "#tunnel.originalTo": "c8630be3-24fa-45ab-b5ac-45752e829c8b@tunnel.msging.net",
+          "$originator": "medprevvendasrouter1@msging.net",
+          "$claims": "Node=medprevvendasrouter1@msging.net/msging-application-router-hosting-enterprise-cmxrp;Identity=medprevvendasrouter1@msging.net;DomainRole=Member;AuthenticationScheme=Transport",
+          "$internalId": "70c9b7a6-8552-48b9-99af-7df6ef95db1a",
+          "$originatorSessionRemoteNode": "enterprise.master.hosting@msging.net/!msging-server-jl5xq-qs86dnqy",
+          "#messageKind": "Response"
+        }
+      },
+      {
+        "id": "ca1b2cac-8fc1-45ea-b573-0c08d8013089",
+        "direction": "sent",
+        "type": "text/plain",
+        "content": "⚠️​  <b>Antes de continuar</b>:\n\nEste canal é exclusivo para orçamentos ou agendamento de consultas e exames pela Medprev online.",
+        "date": "2024-09-05T19:56:08.997Z",
+        "status": "consumed",
+        "metadata": {
+          "$elapsedTimeToStorage": "00:00:00.0129939",
+          "#stateName": "[6.0][MSG] Menu Prosseguir/Agendar",
+          "#stateId": "eb167447-14ff-4673-af99-88a96a8c6d3a",
+          "#messageId": "wamid.HBgMNTU0MTk1ODE4MDUzFQIAEhggQkE4NjVCQzU4Qjk4NEQxOUZGN0Q1RDJBODI1NEVCRUQA",
+          "#previousStateId": "07a7a110-d6a6-4ba1-9d8d-9c4ffed337d8",
+          "#previousStateName": "[1.0][MSG] Saudação",
+          "traceparent": "00-95903fdc0659a3a657df058c2f6b4c5e-36367decea45c147-01",
+          "#uniqueId": "cda79cae-90a7-4351-abc9-7709766f95dd",
+          "#date_processed": "1725566168987",
+          "date_created": "1725566168971",
+          "#tunnel.owner": "medprevvendasrouter1@msging.net",
+          "#tunnel.originator": "5541995818053@wa.gw.msging.net",
+          "#tunnel.originalFrom": "principalvendas3@msging.net/msging-application-builder-hosting-enterprise-5dn52",
+          "#tunnel.originalTo": "c8630be3-24fa-45ab-b5ac-45752e829c8b@tunnel.msging.net",
+          "$originator": "medprevvendasrouter1@msging.net",
+          "$claims": "Node=medprevvendasrouter1@msging.net/msging-application-router-hosting-enterprise-8tmmp;Identity=medprevvendasrouter1@msging.net;DomainRole=Member;AuthenticationScheme=Transport",
+          "$internalId": "cda79cae-90a7-4351-abc9-7709766f95dd",
+          "$originatorSessionRemoteNode": "enterprise.master.hosting@msging.net/!msging-server-bkr52-qs86dnqy",
+          "#messageKind": "Response"
+        }
+      },
+      {
+        "id": "afc8e179-b4df-4156-9dbc-034344e62ced",
+        "direction": "sent",
+        "type": "text/plain",
+        "content": "Boa tarde ☀️!  Eu sou a Medy, assistente virtual da <b>Medprev</b> e vou facilitar seu atendimento. 😃​",
+        "date": "2024-09-05T19:56:07.948Z",
+        "status": "consumed",
+        "metadata": {
+          "$elapsedTimeToStorage": "00:00:00.0094642",
+          "#stateName": "[1.0][MSG] Saudação",
+          "#stateId": "07a7a110-d6a6-4ba1-9d8d-9c4ffed337d8",
+          "#messageId": "wamid.HBgMNTU0MTk1ODE4MDUzFQIAEhggQkE4NjVCQzU4Qjk4NEQxOUZGN0Q1RDJBODI1NEVCRUQA",
+          "#previousStateId": "858ce780-37be-4f15-9178-43d0d2dc2fca",
+          "#previousStateName": "[SELECT] Contato recorrente?",
+          "traceparent": "00-95903fdc0659a3a657df058c2f6b4c5e-0abe648bfa94e8dd-01",
+          "#uniqueId": "3bacc888-de53-42f2-85a2-dbf73b20ae6f",
+          "#date_processed": "1725566167944",
+          "date_created": "1725566167910",
+          "#tunnel.owner": "medprevvendasrouter1@msging.net",
+          "#tunnel.originator": "5541995818053@wa.gw.msging.net",
+          "#tunnel.originalFrom": "principalvendas3@msging.net/msging-application-builder-hosting-enterprise-5dn52",
+          "#tunnel.originalTo": "c8630be3-24fa-45ab-b5ac-45752e829c8b@tunnel.msging.net",
+          "$originator": "medprevvendasrouter1@msging.net",
+          "$claims": "Node=medprevvendasrouter1@msging.net/msging-application-router-hosting-enterprise-ctr76;Identity=medprevvendasrouter1@msging.net;DomainRole=Member;AuthenticationScheme=Transport",
+          "$internalId": "3bacc888-de53-42f2-85a2-dbf73b20ae6f",
+          "$originatorSessionRemoteNode": "enterprise.master.hosting@msging.net/!msging-server-phdwr-qs86dnqy",
+          "#messageKind": "Response"
+        }
+      },
+      {
+        "id": "wamid.HBgMNTU0MTk1ODE4MDUzFQIAEhggQkE4NjVCQzU4Qjk4NEQxOUZGN0Q1RDJBODI1NEVCRUQA",
+        "direction": "received",
+        "type": "text/plain",
+        "content": "Olá, gostaria de realizar um agendamento com a Medprev",
+        "date": "2024-09-05T19:56:06.412Z",
+        "status": "dispatched",
+        "metadata": {
+          "$elapsedTimeToStorage": "00:00:00.0172836",
+          "#wa.timestamp": "1725566165",
+          "traceparent": "00-95903fdc0659a3a657df058c2f6b4c5e-0e1673c3b0597174-01",
+          "$internalId": "6b58120c-35a3-45f5-b3c4-3c48b0f6d5f5",
+          "$originatorSessionRemoteNode": "postmaster@wa.gw.msging.net/#msging-gateway-whatsapp-fbg2n",
+          "#uniqueId": "6b58120c-35a3-45f5-b3c4-3c48b0f6d5f5",
+          "#date_processed": "1725566166400",
+          "date_created": "1725566166396"
+        }
+      }
+    ]
+  },
+  "method": "get",
+  "status": "success",
+  "id": "ed8fff81-c7a6-4be5-9516-d4b7b1e7de4f",
+  "from": "postmaster@desk.msging.net/!msging-application-desk-59b758c897-j7f2k",
+  "to": "flexusprincipal@msging.net/!msging-server-z826c-zl1886ji",
+  "metadata": {
+    "traceparent": "00-0e5313fe079f3a96223884dcd7c55cec-48558fed4be423dc-01",
+    "#command.uri": "lime://flexusprincipal@msging.net/tickets/53ceac5b-ea00-4a87-a889-0191c3c42355/messages?$take=100&$skip=0&direction=desc&getFromOwnerIfTunnel=true&getMergedThreadMessage=true&getExternalMessages=false"
+  }
+}

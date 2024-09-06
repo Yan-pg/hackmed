@@ -1,0 +1,11 @@
+Patient Name,CPF,ZIP Code (City - State),Searched Procedures,Was the sale completed?,"If not sold, reason",Contact (WhatsApp),At which stage did the service stop?
+Ana Souza,123.456.789-00,01001-000 (São Paulo - SP),General consultation,Yes,,(11) 91234-5678,Completed
+Carlos Lima,234.567.890-11,20020-001 (Rio de Janeiro - RJ),Blood test,No,High price,(21) 98765-4321,In negotiation
+Beatriz Rocha,345.678.901-22,30130-010 (Belo Horizonte - MG),X-ray,Yes,,(31) 99876-5432,Completed
+Diego Martins,456.789.012-33,40020-100 (Salvador - BA),Dental consultation,No,Customer indecision,(71) 91234-5678,Quote sent
+Fernanda Alves,567.890.123-44,50010-120 (Recife - PE),Knee surgery,Yes,,(81) 92345-6789,Completed
+Gustavo Nunes,678.901.234-55,60015-130 (Fortaleza - CE),Gynecological consultation,No,Preferred another clinic,(85) 93456-7890,No interest shown
+Isabela Ferreira,789.012.345-66,70040-020 (Brasília - DF),Ultrasound,Yes,,(61) 94567-8901,Completed
+João Pedro,890.123.456-77,80030-050 (Curitiba - PR),Pediatric consultation,No,Incompatible schedule,(41) 95678-9012,Waiting for customer response
+Larissa Costa,901.234.567-88,90040-060 (Porto Alegre - RS),Eye exam,Yes,,(51) 96789-0123,Completed
+Mariana Batista,012.345.678-99,01110-070 (São Paulo - SP),Dermatological consultation,Yes,,(11) 97890-1234,Completed
