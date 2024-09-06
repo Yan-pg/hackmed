@@ -1,9 +1,7 @@
-import "./App.css";
-
-import { PageDoidera } from "./components/component-page/page-doidera";
+import { PageDoidera2 } from "./components/component-page/page-doidera-2";
 import { ModeToggle } from "./components/ui/mode-toggle";
 
-function App() {
+export function UnavaliebleProcuedure() {
   return (
     <div>
       <div className="flex items-center justify-end px-5 mt-10">
@@ -11,11 +9,9 @@ function App() {
       </div>
 
       <h1 className="px-5 text-3xl font-bold mt-10 text-center">
-        Dados do paciente
+        Procedimentos indisponíveis
       </h1>
-      <PageDoidera />
+      <PageDoidera2 />
     </div>
   );
 }
-
-export default App;

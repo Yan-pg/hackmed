@@ -13,11 +13,12 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from "@/components/ui/tooltip";
-import { headers } from "@/data/headers";
 
 interface TableDataProps {
   data: any[];
 }
+
+const headers = ["Procedimento", "Cidade", "Estado"];
 
 function Cell({ children }: { children: string }) {
   return (
@@ -34,7 +35,7 @@ function Cell({ children }: { children: string }) {
   );
 }
 
-export function TableData({ data }: TableDataProps) {
+export function TableData2({ data }: TableDataProps) {
   return (
     <Table>
       <TableHeader>
@@ -47,13 +48,9 @@ export function TableData({ data }: TableDataProps) {
       <TableBody>
         {data.map((customer, index) => (
           <TableRow key={index}>
-            <Cell>{customer.customer_name}</Cell>
-            <Cell>{customer.cep}</Cell>
-            <Cell>{customer.procedure_type}</Cell>
-            <Cell>{customer.procedure_name}</Cell>
-            <Cell>{customer.sale_completed}</Cell>
-            <Cell>{customer.reason_non_sale}</Cell>
-            <Cell>{customer.stage_service_stoped}</Cell>
+            <Cell>{customer.procedure}</Cell>
+            <Cell>{customer.city}</Cell>
+            <Cell>{customer.state}</Cell>
           </TableRow>
         ))}
       </TableBody>

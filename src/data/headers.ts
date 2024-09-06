@@ -1,6 +1,5 @@
 export const headers = [
   "Nome",
-  "CPF",
   "CEP",
   "Procedimentos",
   "Venda concluída",
@@ -8,3 +7,5 @@ export const headers = [
   "Contato",
   "Estágio de parada",
 ];
+
+export const headers2 = ["Procedimento", "Cidade", "Estado"];
