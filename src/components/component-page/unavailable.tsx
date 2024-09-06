@@ -1,9 +1,9 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import { headers2 } from "@/data/headers";
+import { headersProcedures } from "@/data/headers";
 import { ThemeProvider } from "@/providers/theme";
 import React from "react";
 import { ServiceInputId } from "./service-input-id";
-import { TableData2 } from "./table-data-2";
+import { TableProcedure } from "./table-procedure";
 import { Download } from "lucide-react";
 
 const data = {
@@ -12,7 +12,7 @@ const data = {
   state: "BA",
 };
 
-export function PageDoidera2() {
+export function UnavailablePage() {
   const [customersData, setCustomersData] = React.useState<any[]>([]);
 
   const hasCustomerData = customersData.length > 0;
@@ -26,7 +26,7 @@ export function PageDoidera2() {
       return Object.values(row).join(",");
     });
 
-    return [headers2, ...data].join("\n");
+    return [headersProcedures, ...data].join("\n");
   }
 
   function downloadCSV() {
@@ -51,7 +51,7 @@ export function PageDoidera2() {
         <ServiceInputId updateCustomerData={updateCustomerData} data={data} />
         {hasCustomerData && (
           <div className="mt-10">
-            <TableData2 data={customersData} />
+            <TableProcedure data={customersData} />
           </div>
         )}
         {hasCustomerData && (

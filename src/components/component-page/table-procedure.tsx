@@ -13,12 +13,11 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from "@/components/ui/tooltip";
+import { headersProcedures } from "@/data/headers";
 
 interface TableDataProps {
   data: any[];
 }
-
-const headers = ["Procedimento", "Cidade", "Estado"];
 
 function Cell({ children }: { children: string }) {
   return (
@@ -35,12 +34,12 @@ function Cell({ children }: { children: string }) {
   );
 }
 
-export function TableData2({ data }: TableDataProps) {
+export function TableProcedure({ data }: TableDataProps) {
   return (
     <Table>
       <TableHeader>
         <TableRow>
-          {headers.map((header) => (
+          {headersProcedures.map((header) => (
             <TableHead key={header}>{header}</TableHead>
           ))}
         </TableRow>

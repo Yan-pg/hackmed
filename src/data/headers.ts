@@ -8,4 +8,4 @@ export const headers = [
   "Estágio de parada",
 ];
 
-export const headers2 = ["Procedimento", "Cidade", "Estado"];
+export const headersProcedures = ["Procedimento", "Cidade", "Estado"];

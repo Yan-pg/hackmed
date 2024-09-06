@@ -1,4 +1,4 @@
-import { PageDoidera2 } from "./components/component-page/page-doidera-2";
+import { UnavailablePage } from "./components/component-page/unavailable";
 import { ModeToggle } from "./components/ui/mode-toggle";
 
 export function UnavaliebleProcuedure() {
@@ -11,7 +11,7 @@ export function UnavaliebleProcuedure() {
       <h1 className="px-5 text-3xl font-bold mt-10 text-center">
         Procedimentos indisponíveis
       </h1>
-      <PageDoidera2 />
+      <UnavailablePage />
     </div>
   );
 }
